@@ -3578,7 +3578,7 @@
                     textShadow: "1px 1px rgb(0 0 0 / 40%)"
                 }
             }, "Cheats"), React.createElement("a", {
-                href: "",
+                href: "https://discord.gg/jHjGrrdXP6",
                 target: "_blank",
                 id: styles.keys.bigButton
             }, React.createElement("svg", {
