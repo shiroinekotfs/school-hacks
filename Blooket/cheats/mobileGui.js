@@ -162,7 +162,7 @@
         bodyDiv.appendChild(footer);
         footer.style.fontSize = '0.9rem';
         footer.style.paddingBottom = '5px';
-        footer.innerHTML = (`<span><a target="blank" href="https://discord.gg/jHjGrrdXP6">Discord</a><br/><a target="blank" href="https://github.com/05Konz/Blooket-Cheats">GitHub - 05Konz</a></span>`);
+        footer.innerHTML = (`<span><a target="blank" href="">Discord</a><br/><a target="blank" href="https://github.com/05Konz/Blooket-Cheats">GitHub - 05Konz</a></span>`);
         
         let cheats = ({
             global: [
