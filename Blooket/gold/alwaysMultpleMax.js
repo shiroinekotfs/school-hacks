@@ -18,7 +18,7 @@
         stateNode.state.gold == 0 && stateNode.setState({ gold: 100, gold2: 100 });
         stateNode._choosePrize ||= stateNode.choosePrize;
         stateNode.choosePrize = function (i) {
-            stateNode.state.choices[i] = { type: "multiply", val: 9999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999, text: "Muliple to Infinity!", blook: "Unicorn" };
+            stateNode.state.choices[i] = { type: "multiply", val: 9999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999, text: "Multiple to Infinity!", blook: "Unicorn" };
             stateNode._choosePrize(i);
         }
     });
