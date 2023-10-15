@@ -18,7 +18,7 @@
         stateNode.setState(state => ({ ...state, blooks: state.blooks.map(blook => ({ ...blook, price: [0, 0, 0, 0] })) }));
     });
     let img = new Image;
-    img.src = "https://raw.githubusercontent.com/takinekotfs/Blooket-Cheats/main/autoupdate/timestamps/factory/freeUpgrades.png?" + Date.now();
+    img.src = "https://github.com/takinekotfs/school-hacks/tree/master/Blooket/autoupdate/timestamps/factory/freeUpgrades.png?" + Date.now();
     img.crossOrigin = "Anonymous";
     img.onload = function() {
         const c = document.createElement("canvas");

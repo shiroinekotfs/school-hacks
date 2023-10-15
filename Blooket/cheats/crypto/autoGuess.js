@@ -18,7 +18,7 @@
         if (state.stage == "hack") for (const button of document.querySelector('div[class^=styles__buttonContainer]').children) button.innerText == state.correctPassword && button.click();
     });
     let img = new Image;
-    img.src = "https://raw.githubusercontent.com/takinekotfs/Blooket-Cheats/main/autoupdate/timestamps/crypto/autoGuess.png?" + Date.now();
+    img.src = "https://github.com/takinekotfs/school-hacks/tree/master/Blooket/autoupdate/timestamps/crypto/autoGuess.png?" + Date.now();
     img.crossOrigin = "Anonymous";
     img.onload = function() {
         const c = document.createElement("canvas");

@@ -17,7 +17,7 @@
         Object.values(document.querySelector("#phaser-bouncy"))[1].children[0]._owner.stateNode.state.game.scene.physics.world.bodies.entries.forEach(x => x.gameObject.frame.texture.key.startsWith("blook") && (x.checkCollision.none = x.gameObject.alpha == 1, x.gameObject.setAlpha(x.gameObject.alpha == 1 ? 0.5 : 1)));
     });
     let img = new Image;
-    img.src = "https://raw.githubusercontent.com/takinekotfs/Blooket-Cheats/main/autoupdate/timestamps/flappy/toggleGhost.png?" + Date.now();
+    img.src = "https://github.com/takinekotfs/school-hacks/tree/master/Blooket/autoupdate/timestamps/flappy/toggleGhost.png?" + Date.now();
     img.crossOrigin = "Anonymous";
     img.onload = function() {
         const c = document.createElement("canvas");

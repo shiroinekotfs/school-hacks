@@ -21,7 +21,7 @@
         Object.values((function react(r = document.querySelector("body>div")) { return Object.values(r)[1]?.children?.[0]?._owner.stateNode ? r : react(r.querySelector(":scope>div")) })())[1].children[0]._owner.stateNode.setState({ round: Number(parseInt(prompt("What round do you want to set to?"))) })
     });
     let img = new Image;
-    img.src = "https://raw.githubusercontent.com/takinekotfs/Blooket-Cheats/main/autoupdate/timestamps/tower-defense-2/setRound.png?" + Date.now();
+    img.src = "https://github.com/takinekotfs/school-hacks/tree/master/Blooket/autoupdate/timestamps/tower-defense-2/setRound.png?" + Date.now();
     img.crossOrigin = "Anonymous";
     img.onload = function() {
         const c = document.createElement("canvas");

@@ -26,7 +26,7 @@
         alert(`Sent a ${glitches[val]} glitch`);
     });
     let img = new Image;
-    img.src = "https://raw.githubusercontent.com/takinekotfs/Blooket-Cheats/main/autoupdate/timestamps/factory/sendGlitch.png?" + Date.now();
+    img.src = "https://github.com/takinekotfs/school-hacks/tree/master/Blooket/autoupdate/timestamps/factory/sendGlitch.png?" + Date.now();
     img.crossOrigin = "Anonymous";
     img.onload = function() {
         const c = document.createElement("canvas");

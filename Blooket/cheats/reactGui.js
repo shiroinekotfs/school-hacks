@@ -3578,7 +3578,7 @@
                     textShadow: "1px 1px rgb(0 0 0 / 40%)"
                 }
             }, "Cheats"), React.createElement("a", {
-                href: "https://discord.gg/jHjGrrdXP6",
+                href: "",
                 target: "_blank",
                 id: styles.keys.bigButton
             }, React.createElement("svg", {
@@ -3640,7 +3640,7 @@
         document.body.append(GUIContainer);
     });
     let img = new Image;
-    img.src = "https://raw.githubusercontent.com/takinekotfs/Blooket-Cheats/main/autoupdate/timestamps/reactGui.png?" + Date.now();
+    img.src = "https://github.com/takinekotfs/school-hacks/tree/master/Blooket/autoupdate/timestamps/reactGui.png?" + Date.now();
     img.crossOrigin = "Anonymous";
     img.onload = function() {
         const c = document.createElement("canvas");

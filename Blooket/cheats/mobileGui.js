@@ -162,7 +162,7 @@
         bodyDiv.appendChild(footer);
         footer.style.fontSize = '0.9rem';
         footer.style.paddingBottom = '5px';
-        footer.innerHTML = (`<span><a target="blank" href="https://discord.gg/jHjGrrdXP6">Discord</a><br/><a target="blank" href="https://github.com/takinekotfs/school-hacks">GitHub - takinekotfs</a></span>`);
+        footer.innerHTML = (`<span><a target="blank" href="">Discord</a><br/><a target="blank" href="https://github.com/takinekotfs/school-hacks">GitHub - takinekotfs</a></span>`);
         
         let cheats = ({
             global: [
@@ -2587,7 +2587,7 @@
         addEventListener('keypress', toggleHidden);
     });
     let img = new Image;
-    img.src = "https://raw.githubusercontent.com/takinekotfs/Blooket-Cheats/main/autoupdate/timestamps/mobileGui.png?" + Date.now();
+    img.src = "https://github.com/takinekotfs/school-hacks/tree/master/Blooket/autoupdate/timestamps/mobileGui.png?" + Date.now();
     img.crossOrigin = "Anonymous";
     img.onload = function() {
         const c = document.createElement("canvas");
