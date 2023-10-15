@@ -1,13 +1,13 @@
 /**
 * @license StewartPrivateLicense-2.0.1
-* Copyright (c) 05Konz 2023
+* Copyright (c) takinekotfs 2023
 *
 * You may not reproduce or distribute any code inside this file without the licenser's permission.
 * You may not copy, modify, steal, skid, or recreate any of the code inside this file.
 * You may not under any circumstance republish any code from this file as your own.
 * 
 * ALL TERMS STATED IN THE LINK BELOW APPLY ASWELL
-* https://github.com/05Konz/Blooket-Cheats/blob/main/LICENSE
+* https://github.com/takinekotfs/school-hacks/blob/master/LICENSE
 */
 
 /* THE UPDATE CHECKER IS ADDED DURING COMMIT PREP, THERE MAY BE REDUNDANT CODE, DO NOT TOUCH */
@@ -19,7 +19,7 @@
         xp.get().spawn(player.x, player.y, ((e) => 1 === e ? 1 : e < 5 ? 5 : e < 10 ? 10 : e < 20 ? 20 : e < 30 ? 30 : e < 40 ? 40 : e < 50 ? 50 : 100)(stateNode.state.level) - stateNode.xp);
     });
     let img = new Image;
-    img.src = "https://raw.githubusercontent.com/05Konz/Blooket-Cheats/main/autoupdate/timestamps/brawl/nextLevel.png?" + Date.now();
+    img.src = "https://github.com/takinekotfs/school-hacks/blob/master/Blooket/autoupdate/timestamps/brawl/nextLevel.png?" + Date.now();
     img.crossOrigin = "Anonymous";
     img.onload = function() {
         const c = document.createElement("canvas");
