@@ -3570,7 +3570,7 @@
                 key: "x"
             })), React.createElement("div", {
                 id: styles.keys.credits
-            }, React.createElement(AntiBen, null, "GitHub - 05Konz")), React.createElement("div", {
+            }, React.createElement(AntiBen, null, "GitHub - takinekotfs")), React.createElement("div", {
                 id: styles.keys.cheatList
             }, React.createElement(AntiBen, {
                 type: "span",
