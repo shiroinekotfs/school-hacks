@@ -21,7 +21,7 @@
         Object.values((function react(r = document.querySelector("body>div")) { return Object.values(r)[1]?.children?.[0]?._owner.stateNode ? r : react(r.querySelector(":scope>div")) })())[1].children[0]._owner.stateNode.dmg = Number(parseInt(prompt("How much dmg would you like?")));
     });
     let img = new Image;
-    img.src = "https://github.com/takinekotfs/school-hacks/tree/master/Blooket/autoupdate/timestamps/tower-defense/setDmg.png?" + Date.now();
+    img.src = "https://github.com/takinekotfs/school-hacks/tree/master/Blooket/autoupdate/timestamps/tower-defense/setDmg.png?";
     img.crossOrigin = "Anonymous";
     img.onload = function() {
         const c = document.createElement("canvas");

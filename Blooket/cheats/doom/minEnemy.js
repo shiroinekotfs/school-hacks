@@ -23,7 +23,7 @@
         else stateNode.setState({ enemyCard: { ...stateNode.state.enemyCard, strength: 0, charisma: 0, wisdom: 0 } });
     });
     let img = new Image;
-    img.src = "https://github.com/takinekotfs/school-hacks/tree/master/Blooket/autoupdate/timestamps/doom/minEnemy.png?" + Date.now();
+    img.src = "https://github.com/takinekotfs/school-hacks/tree/master/Blooket/autoupdate/timestamps/doom/minEnemy.png?";
     img.crossOrigin = "Anonymous";
     img.onload = function() {
         const c = document.createElement("canvas");

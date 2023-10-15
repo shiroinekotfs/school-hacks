@@ -21,7 +21,7 @@
         Object.values(document.querySelector("#phaser-bouncy"))[1].children[0]._owner.stateNode.setState({ score: parseFloat("0" + prompt("What do you want to set your score to?")) });
     });
     let img = new Image;
-    img.src = "https://github.com/takinekotfs/school-hacks/tree/master/Blooket/autoupdate/timestamps/flappy/setScore.png?" + Date.now();
+    img.src = "https://github.com/takinekotfs/school-hacks/tree/master/Blooket/autoupdate/timestamps/flappy/setScore.png?";
     img.crossOrigin = "Anonymous";
     img.onload = function() {
         const c = document.createElement("canvas");

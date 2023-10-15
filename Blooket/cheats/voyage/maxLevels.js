@@ -18,7 +18,7 @@
         stateNode.setState({ islandLevels: new Array(stateNode.state.islandLevels.length).fill(5) }, stateNode.updateBoatLevel);
     });
     let img = new Image;
-    img.src = "https://github.com/takinekotfs/school-hacks/tree/master/Blooket/autoupdate/timestamps/voyage/maxLevels.png?" + Date.now();
+    img.src = "https://github.com/takinekotfs/school-hacks/tree/master/Blooket/autoupdate/timestamps/voyage/maxLevels.png?";
     img.crossOrigin = "Anonymous";
     img.onload = function() {
         const c = document.createElement("canvas");

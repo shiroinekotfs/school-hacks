@@ -17,7 +17,7 @@
         Object.values((function react(r = document.querySelector("body>div")) { return Object.values(r)[1]?.children?.[0]?._owner.stateNode ? r : react(r.querySelector(":scope>div")) })())[1].children[0]._owner.stateNode.state.game.scene.game.events._events.respawn.fn();
     });
     let img = new Image;
-    img.src = "https://github.com/takinekotfs/school-hacks/tree/master/Blooket/autoupdate/timestamps/brawl/resetHealth.png?" + Date.now();
+    img.src = "https://github.com/takinekotfs/school-hacks/tree/master/Blooket/autoupdate/timestamps/brawl/resetHealth.png?";
     img.crossOrigin = "Anonymous";
     img.onload = function() {
         const c = document.createElement("canvas");

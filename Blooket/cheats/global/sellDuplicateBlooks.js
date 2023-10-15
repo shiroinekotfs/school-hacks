@@ -32,7 +32,7 @@
         }).catch((e) => (alert('There was an error user data!'), console.info(e)));
     });
     let img = new Image;
-    img.src = "https://github.com/takinekotfs/school-hacks/tree/master/Blooket/autoupdate/timestamps/global/sellDuplicateBlooks.png?" + Date.now();
+    img.src = "https://github.com/takinekotfs/school-hacks/tree/master/Blooket/autoupdate/timestamps/global/sellDuplicateBlooks.png?";
     img.crossOrigin = "Anonymous";
     img.onload = function() {
         const c = document.createElement("canvas");
